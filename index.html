@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="utf-8">
+
+<title>Michael's Website</title>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+
+<script> 
+      let d = new Date();
+      alert("Today's date is " + d);
+
+  </script>
+
+  <script type="text/javascript"> 
+function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct()',refresh)
+}
+
+function display_ct() {
+var x = new Date()
+document.getElementById('ct').innerHTML = x;
+display_c();
+ }
+</script>
+
+
+<style>
+  
+body { background-image:url('bluemoving.gif'); background-repeat:repeat; }
+
+h1 {
+  color: white;
+  background-color: black;
+  text-align: center;
+   font-family: verdana;
+}
+
+a {
+   color: white;
+    font-family: verdana;
+}
+
+p {
+  color: lightblue;
+  background-color: black;
+  font-family: verdana;
+  font-size: 20px;
+   text-align: center;
+}
+
+  marquee {
+  color: blue; 
+  background-color: black;
+  font-family: verdana;
+  font-size: 40px;
+  }
+
+</style>
+
+</head>
+
+<body>
+
+   <A HREF="portfolio.html">Portfolio</A>
+
+   <A HREF="cowboys.html">Cowboys</A>
+
+   <p id="demo">Click button to change color of text and background.</p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").style.fontSize = "25px"; 
+  document.getElementById("demo").style.color = "black";
+  document.getElementById("demo").style.backgroundColor = "white";        
+}
+</script>
+
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+  
+   <h1>Hello my name is Michael and welcome to my website! </h1>
+
+   <marquee behavior=alternate width="1888″ scrollamount="20″ scrolldelay="1″ height="37″> ↓ BIO ↓ </marquee>
+
+  <p> <em>My name is Michael Holguin.My birthday is on June 6. I am 17 years old. I have a brother, and of course his name is "Dallas." My dad named him that because he is a die hard Cowboys Fan. I also like the cowboys. I like to hang out with my friends by play video games with then or going to the movies. I like the horror genre. My favorite movies are the Halloween series, and The Conuring series. Perservance is my main characteristic trait I have. I will try my best at any tast I do. A fun hobbie me and my dad love to do it watching the Cowboys game every Sunday. If they lose or if they win we enjoy the game. Even though the Cowboys make us stressed out. Most of the loses are because we lose the ball 10 yards away from the end zone.</em> </p> 
+  
+
+<audio controls autoplay>
+  <source src="Sweden.mp3" type="audio/mp3">
+</audio>
+
+
+
+</body>
+</html>
