@@ -15,19 +15,6 @@
 
   </script>
 
-  <script type="text/javascript"> 
-function display_c(){
-var refresh=1000; // Refresh rate in milli seconds
-mytime=setTimeout('display_ct()',refresh)
-}
-
-function display_ct() {
-var x = new Date()
-document.getElementById('ct').innerHTML = x;
-display_c();
- }
-</script>
-
 
 <style>
   
@@ -75,11 +62,10 @@ p {
 <script>
 function myFunction() {
   document.getElementById("demo").style.fontSize = "25px"; 
-  document.getElementById("demo").style.color = "black";
-  document.getElementById("demo").style.backgroundColor = "white";        
+  document.getElementById("demo").style.color = "white";
+  document.getElementById("demo").style.backgroundColor = "black";        
 }
 </script>
-
 
 <button type="button" onclick="myFunction()">Click Me!</button>
 
